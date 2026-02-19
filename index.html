@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <html lang="uk">
+
+        <head>
+            <meta charset="UTF-8">
+            <title> Мої улюблені книги </title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+            <link href="style.css" rel="stylesheet">
+        </head>
+
+        <body>
+            <h1 align="center"> <u> Мої улюблені книги </u> </h1>
+            
+            <h2 align="center">Чому я люблю читати</h2>
+            <p> <i>Читання книг</i> приносить мені велике задоволення. Це дає можливість зануритися в <b>нові світи</b>, <i>дізнатися</i> багато цікавого та <mark>розвивати</mark> свою <b>уяву</b>.</p>
+            
+            <h2 align="center">Мої улюблені книги</h2>
+            <ol>
+                <li> Хрещений батько - Маріо П'юзо </li>
+                <li> Людина-невидимка - Герберт Уеллс </li>
+                <li> Жорж Сіменон - Меґре </li>
+            </ol>
+
+            <h2 align="center"> Жанри, які я люблю </h2>               
+            <ul>
+                <li> Кримінал </li>
+                <li> Наукова фантастика </li>
+                <li> Детективи </li>
+            </ul>
+
+            <h2 align="center"> Обкладинки книг </h2>
+            <img src="thegodfather-2500.480x710.jpg" alt="Хрещений батько" width="400" height="300">
+            <img src="maxresdefault.jpg" alt="Людина-невидимка" width="400" height="300">
+            <img src="megre.jpg" alt="Меґре" width="400" height="300">
+            
+            <h2 align="center"> Де купити ці книги </h2>
+            <p> Купити можна <a href=https://www.yakaboo.ua> тут.</a></p>
+            <p>Також ви можете придбати ці книги на <a href="https://www.amazon.com/"
+            target="_blank">Amazon</a> та <a href="https://book.ua/"
+            target="_blank">Book.ua</a>.</p>
+
+            <h2 align="center"><u>Відео про книги</u></h2>
+            <video controls width='500' height='500'>
+                <source src='Людина-невидимка. Г. Д. Веллс, Велика Британія, 1897 .Роман.mp4' type="video/mp4">
+            </video>
+            
+            <h2 align="center"> Інформація про книги </h2>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <th>Назва книги</th>
+                    <th>Автор</th>
+                    <th>Жанр</th>
+                </tr>
+                <tr>
+                    <td>Хрещений батько</td>
+                    <td>Маріо П'юзо</td>
+                    <td>Кримінал</td>
+                </tr>
+                <tr>
+                    <td>Людина-невидимка</td>
+                    <td>Герберт Уелс</td>
+                    <td>Наукова фантастика</td>
+                </tr>
+                <tr>
+                    <td>Меґре</td>
+                    <td>Д.Сіменон</td>
+                    <td>Детектив</td>
+                </tr>
+            </table>
+
+            <h2 align="center">Зворотний зв'язок</h2>
+
+            <form action="https://api.web3forms.com/submit" method="post">
+                    <input type="hidden" name="access_key" value="6cd09eb7-ae7f-446a-99be-7ea722ce8f41">
+
+                    <label for="name">Ім’я:</label>   
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Електронна пошта:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="age">Вік:</label>
+                    <input type="number" id="age" name="age" min="0" required>
+
+                    <label for="message">Повідомлення:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Надіслати</button>
+            </form>
+        </body>
+    </html>
